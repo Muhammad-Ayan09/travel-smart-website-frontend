@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Contact Us — Travel Smart</title>
+  <meta name="description" content="Get in touch with Travel Smart for inquiries, support, or partnership opportunities." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="./assets/fav-icon.png" type="image/x-icon">
+  <!-- AOS animation library removed -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Travel Smart home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-text">Travel Smart</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+          <i></i>
+          <i></i>
+          <i></i>
+        </button>
+        <ul class="nav-list" id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="catalog.html">Trip Catalog</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="reviews.html">Tour Review</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="btn ghost" id="themeToggle" aria-label="Toggle theme"><i class="ri-sun-line" id="themeIcon"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="contact-hero">
+      <div class="video-background">
+        <video autoplay muted loop playsinline>
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-traveling-through-a-mountain-range-4112-large.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+      </div>
+      <div class="content-container">
+        <div class="contact-hero-content">
+          <div class="hero-icon">
+              <i class="ri-customer-service-2-fill"></i>
+            </div>
+          <h1>Get in Touch</h1>
+          <p>We're here to help you plan your next adventure. Reach out to our travel experts for personalized assistance.</p>
+          <div class="hero-features">
+            <div class="hero-feature">
+              <i class="ri-time-line"></i>
+              <span>24/7 Support</span>
+            </div>
+            <div class="hero-feature">
+              <i class="ri-timer-line"></i>
+              <span>Response within 2 hours</span>
+            </div>
+            <div class="hero-feature">
+              <i class="ri-shield-check-line"></i>
+              <span>Secure communication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Info Cards Section -->
+    <section class="section" id="contact-info">
+      <div class="content-container">
+        <div class="section-head text-center">
+          <h2>Contact Information</h2>
+          <p>Reach out to us through any of these channels. We're here to help with your travel needs.</p>
+        </div>
+        <div class="contact-cards">
+          <div class="contact-info-card">
+            <div class="contact-icon">
+              <i class="ri-map-pin-2-fill"></i>
+            </div>
+            <h3>Visit Us</h3>
+            <p>123 Travel Avenue<br>Dubai, United Arab Emirates</p>
+            <a href="https://goo.gl/maps/123" class="contact-link" target="_blank">View on Map <i class="ri-arrow-right-line"></i></a>
+          </div>
+          
+          <div class="contact-info-card">
+            <div class="contact-icon">
+              <i class="ri-mail-open-fill"></i>
+            </div>
+            <h3>Email Us</h3>
+            <p>Send us your inquiries anytime</p>
+            <a href="mailto:hello@travelsmart.example" class="contact-link">hello@travelsmart.example</a>
+            <a href="mailto:support@travelsmart.example" class="contact-link">support@travelsmart.example</a>
+          </div>
+          
+          <div class="contact-info-card">
+            <div class="contact-icon">
+              <i class="ri-phone-fill"></i>
+            </div>
+            <h3>Call Us</h3>
+            <p>Mon-Fri from 8am to 5pm</p>
+            <a href="tel:+1234567890" class="contact-link">+1 (234) 567-890</a>
+            <a href="tel:+1234567891" class="contact-link">+1 (234) 567-891</a>
+          </div>
+          
+          <div class="contact-info-card">
+            <div class="contact-icon">
+              <i class="ri-time-fill"></i>
+            </div>
+            <h3>Working Hours</h3>
+            <p>Monday - Friday: 8am - 5pm<br>Saturday: 9am - 1pm<br>Sunday: Closed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Service Cards Section -->
+    <section class="section" id="services">
+      <div class="content-container">
+        <div class="section-head text-center">
+          <h2>Our Services</h2>
+          <p class="section-description">Discover our premium travel services designed to make your journey seamless and memorable.</p>
+        </div>
+        <div class="service-cards">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="ri-flight-takeoff-fill"></i>
+              </div>
+              <h3>Flight Booking</h3>
+              <p>Get the best deals on flights to your dream destinations with our expert booking service.</p>
+              <a href="#" class="service-link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="ri-hotel-fill"></i>
+              </div>
+              <h3>Hotel Reservations</h3>
+              <p>Find perfect accommodations from luxury hotels to cozy boutique stays worldwide.</p>
+              <a href="#" class="service-link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="ri-route-fill"></i>
+              </div>
+              <h3>Tour Packages</h3>
+              <p>Explore our curated tour packages designed for unforgettable travel experiences.</p>
+              <a href="#" class="service-link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="ri-car-fill"></i>
+              </div>
+              <h3>Transportation</h3>
+              <p>Seamless transportation services including car rentals and airport transfers.</p>
+              <a href="#" class="service-link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form and Map Section -->
+    <section class="section alt" id="contact-form-section">
+      <div class="content-container">
+        <div class="contact-grid">
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <div class="section-head">
+              <h2>Send Us Message</h2>
+              <p>We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.</p>
+            </div>
+            
+            <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="b3c436b0-5d30-4da6-b7fc-cadce226d218">
+              <input type="hidden" name="subject" value="New contact form submission from Travel Smart website">
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName">Full Name</label>
+                  <div class="input-with-icon">
+                    <i class="ri-user-line"></i>
+                    <input type="text" id="fullName" name="fullName" placeholder="John Doe" required>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <div class="input-with-icon">
+                    <i class="ri-mail-line"></i>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <div class="input-with-icon">
+                    <i class="ri-phone-line"></i>
+                    <input type="tel" id="phone" name="phone" placeholder="+1 (234) 567-890">
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="inquiryType">Inquiry Type</label>
+                  <div class="input-with-icon">
+                    <i class="ri-questionnaire-line"></i>
+                    <select id="inquiryType" name="inquiryType">
+                      <option value="general">General Inquiry</option>
+                      <option value="booking">Booking Question</option>
+                      <option value="support">Customer Support</option>
+                      <option value="feedback">Feedback</option>
+                      <option value="partnership">Partnership Opportunity</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <div class="input-with-icon textarea-icon">
+                  <i class="ri-chat-1-line"></i>
+                  <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                </div>
+              </div>
+              
+              <div class="form-group checkbox-group">
+                <label class="checkbox-container">
+                  <input type="checkbox" name="newsletter" value="yes">
+                  <span class="checkmark"></span>
+                  <span class="checkbox-text">Subscribe to our newsletter for travel tips and exclusive offers</span>
+                </label>
+              </div>
+              
+              <div class="form-group">
+                <button type="submit" class="btn primary submit-btn">
+                  <span>Send Message</span>
+                  <i class="ri-send-plane-fill"></i>
+                </button>
+                <div id="form-status" class="form-status"></div>
+              </div>
+            </form>
+          </div>
+          
+          <!-- Map Container -->
+          <div class="map-container">
+            <div class="map-card">
+              <div class="map-header">
+                <h3><i class="ri-map-pin-line"></i> Our Location</h3>
+                <button class="btn secondary" id="btnLocate">
+                  <i class="ri-focus-2-line"></i> Use My Location
+                </button>
+              </div>
+              <div class="map-wrap">
+                <iframe id="mapFrame" title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.178530058236!2d55.27180687538159!3d25.197201831889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sus!4v1684956512000!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="map-footer">
+                <p id="locText">Explore our central location in Dubai</p>
+                <div class="location-search">
+                  <input type="email" id="msgEmail" placeholder="Enter your email for directions" />
+                  <button class="btn primary" id="btnSubscribe">Send Directions</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="section" id="faq-section">
+      <div class="content-container">
+        <div class="section-head text-center">
+          <h2>Frequently Asked Questions</h2>
+          <p>Find answers to common questions about our services</p>
+        </div>
+        
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How do I book a trip with Travel Smart?</h3>
+              <button class="faq-toggle"><i class="ri-add-line"></i></button>
+            </div>
+            <div class="faq-answer">
+              <p>You can book a trip through our website by browsing our catalog, selecting your desired destination, and following the booking process. Alternatively, you can contact our customer service team directly for assistance with your booking.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What payment methods do you accept?</h3>
+              <button class="faq-toggle"><i class="ri-add-line"></i></button>
+            </div>
+            <div class="faq-answer">
+              <p>We accept all major credit cards (Visa, MasterCard, American Express), PayPal, bank transfers, and in some regions, we offer payment plans. All payments are processed securely through our encrypted payment system.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What is your cancellation policy?</h3>
+              <button class="faq-toggle"><i class="ri-add-line"></i></button>
+            </div>
+            <div class="faq-answer">
+              <p>Our standard cancellation policy allows for a full refund if canceled 30 days before the trip date. Cancellations made 15-29 days before receive a 50% refund, and less than 15 days are non-refundable. Some premium packages may have different terms, which will be clearly stated during booking.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Do you offer travel insurance?</h3>
+              <button class="faq-toggle"><i class="ri-add-line"></i></button>
+            </div>
+            <div class="faq-answer">
+              <p>Yes, we offer comprehensive travel insurance packages that cover trip cancellation, medical emergencies, lost luggage, and more. We recommend adding insurance to your booking for peace of mind during your travels.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="section alt" id="cta-section">
+      <div class="content-container">
+        <div class="cta-container">
+          <div class="cta-content">
+            <h2>Ready to Start Your Journey?</h2>
+            <p>Join thousands of satisfied travelers who have experienced the world with Travel Smart</p>
+            <div class="cta-buttons">
+              <a href="catalog.html" class="btn primary">Browse Destinations</a>
+              <a href="#contact-form-section" class="btn secondary">Contact Us</a>
+            </div>
+          </div>
+          <div class="cta-image">
+            <img src="assets/contact-pic.jpg" alt="Happy travelers" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+   <footer class="site-footer">
+      <div class="content-container footer-grid">
+        <div class="col">
+          <a class="brand" href="#top"><span class="brand-mark">✦</span><span class="brand-text">Travel Smart</span></a>
+          <p class="muted">Design-forward travel planning for modern explorers.</p>
+          <div class="social">
+            <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+            <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ri-youtube-line"></i></a>
+          </div>
+        </div>
+        <div class="col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#stories">Community</a></li>
+            <li><a href="#deals">Partners</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Safety</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Get the app</h4>
+          <div class="badges">
+            <a class="store" href="#" aria-label="Download on App Store"><i class="ri-apple-line"></i> App Store</a>
+            <a class="store" href="#" aria-label="Get it on Google Play"><i class="ri-google-play-line"></i> Google Play</a>
+          </div>
+        </div>
+      </div>
+      <div class="content-container legal">
+        <span>© <span id="year"></span> Travel Smart</span>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#sitemap">Sitemap</a>
+      </div>
+    </footer>
+
+    <template id="cardTemplate">
+      <article class="card" data-type="">
+        <div class="media">
+          <img src="" alt="" loading="lazy" />
+          <div class="pill rating"><i class="ri-star-smile-line"></i><span></span></div>
+          <button class="pill action" data-quickview><i class="ri-eye-line"></i><span>Quick view</span></button>
+        </div>
+        <div class="content">
+          <h3 class="title"></h3>
+          <p class="muted location"></p>
+          <div class="meta">
+            <div class="tags"></div>
+            <div class="price"><span class="from">From</span> <strong class="amount"></strong></div>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <dialog class="modal" id="quickModal">
+      <div class="modal-body">
+        <button class="btn ghost close" data-close-modal aria-label="Close"><i class="ri-close-line"></i></button>
+        <img class="modal-img" alt="Preview" />
+        <div class="modal-content">
+          <h3 class="modal-title"></h3>
+          <p class="modal-location muted"></p>
+          <p class="modal-desc"></p>
+          <div class="gallery" id="modalGallery"></div>
+          <div class="video" id="modalVideoWrap"></div>
+          <div class="inline-meta">
+            <div class="pill">Duration: <span id="modalDuration"></span></div>
+            <div class="pill">Next start: <span id="modalStart"></span></div>
+            <div class="pill" id="modalDiscount"></div>
+          </div>
+          <div class="two-col">
+            <div>
+              <h4>Accommodations</h4>
+              <ul class="list" id="modalStays"></ul>
+            </div>
+            <div>
+              <h4>Transport options</h4>
+              <ul class="list" id="modalTransport"></ul>
+            </div>
+          </div>
+          <button class="btn primary">Plan this trip</button>
+        </div>
+      </div>
+    </dialog>
+    <script src="shared.js" defer></script>
+    <!-- AOS Animation Library Script removed -->
+    <script src="contact.js" defer></script>
+  </body>
+</html>
+
+
